@@ -1,3 +1,2 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:430de54add333527689b7ee98a324778ac6b8a3c9c41ef2eadebde1482f685ab
-size 265
+# GLCPN-Supplementary File.pdf
+This is the supplementary file for the paper entitled “Graph Linear Convolution Pooling for Learning in Incomplete High-Dimensional Data”. The proofs, additional tables and figures are put into this file and cited by the paper.
