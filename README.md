@@ -8,17 +8,17 @@ The supplementary model discussions including proofs, details of experimental se
 This is the PyTorch implementation for our proposed GLCPN model.
 
 The code directory is as follows:
->GLCPN
->>model
->>>GLCPN_bi.py # GLCPN designed for bipartite graphs, such as a QoS network.  
->>>GLCPN_ui.py # GLCPN designed for unipartite graphs, such as a PPI network. 
->>utils
->>>eval.py # Evaluation metrics
->>>LoadData_bi.py # Data reading file for bipartite graphs.
->>>LoadData_ui.py # Data reading file for unipartite graphs.
->>results # Folder for storing experimental results.
->run_bi.py # Executable file for bipartite graphs.
->run_ui.py # Executable file for unipartite graphs.
+- GLCPN/
+  - model/
+    - GLCPN_bi.py # GLCPN designed for bipartite graphs, such as a QoS network.  
+    - GLCPN_ui.py # GLCPN designed for unipartite graphs, such as a PPI network. 
+  - utils/
+    - eval.py # Evaluation metrics
+    - LoadData_bi.py # Data reading file for bipartite graphs.
+    - LoadData_ui.py # Data reading file for unipartite graphs.
+  - results/ # Folder for storing experimental results.
+- run_bi.py # Executable file for bipartite graphs.
+- run_ui.py # Executable file for unipartite graphs.
 
 We implement all the experiments in Python 3.7, and deploy them on a server with one 2.4-GHz Intel Xeon 4214R CPU, four NVIDIA RTX 3090 GPUs, and 128-GB RAM. 
 We may create an environment using: `conda create --name <env> --file requirements.txt`, or install the required packages using: `conda install --file requirements.txt`
