@@ -7,10 +7,6 @@ The supplementary model discussions including proofs, details of experimental se
 ## GLCPN-Codes.zip
 This is the PyTorch implementation for our paper entitiled “Graph Linear Convolution Pooling for Learning in Incomplete High-Dimensional Data”.
 
-### Experimental Environment
 We implement all the experiments in Python 3.7, and deploy them on a server with one 2.4-GHz Intel Xeon 4214R CPU, four NVIDIA RTX 3090 GPUs, and 128-GB RAM. 
 We may create an environment using: `conda create --name <env> --file requirements.txt`, or install the required packages using: `conda install --file requirements.txt`
 
-### Code Directory
-- [代码文件3](#代码文件3)## 代码文件1 <a name="代码文件1"></a>
-描述代码文件1的内容。
