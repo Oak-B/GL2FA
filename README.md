@@ -19,4 +19,4 @@ This file contains all the prepared datasets used in our paper.
 - DPI network: [Kiba](https://researchportal.helsinki.fi/en/datasets/kiba-a-benchmark-dataset-for-drug-target-prediction) is a benchmark dataset for predicting the binding affinity between drugs and targets, which is created by Jing Tang at the University of Helsinki. It encompasses joint kinase inhibitor bioactivities from various sources including Kd, Ki, and IC50. For training and prediction purposes, the weights are processed into logarithmically normalized KIBA scores. This dataset consists of 118,254 DPI pairs, 2,111 chemical compounds, and 229 kinase targets, resulting a density of 24.46%.
 
 ## Others
-Please see more information in the manuscript. For further questions not addressed in the manuscript, please feel free to email [us](bifanghui@cigit.ac.cn) for clarification or leave a comment [here](https://github.com/Oak-B/GLCPN/issues).
+Please see more information in the manuscript. For further questions not addressed in the manuscript, please feel free to email us `bifanghui@cigit.ac.cn` for clarification or leave a comment [here](https://github.com/Oak-B/GLCPN/issues).
