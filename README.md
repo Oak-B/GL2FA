@@ -11,8 +11,8 @@ This is the PyTorch implementation for our proposed GLCPN model.
 
 - GLCPN/
   - model/
-    - GLCPN_bi.py # GLCPN designed for bipartite graphs, such as a QoS network.  
-    - GLCPN_ui.py # GLCPN designed for unipartite graphs, such as a PPI network. 
+    - GLCPN_bi.py # GLCPN implemented for bipartite graphs, such as a QoS network.  
+    - GLCPN_ui.py # GLCPN implemented for unipartite graphs, such as a PPI network. 
   - utils/
     - eval.py # Evaluation metrics
     - LoadData_bi.py # Data reading file for bipartite graphs.
